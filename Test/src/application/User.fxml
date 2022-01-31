@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="860.0" prefWidth="1253.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UserController">
+   <children>
+      <Text layoutX="93.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Movie Name :-" />
+      <Text fx:id="movieNameUser" layoutX="247.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text layoutX="93.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ticket Price :-" />
+      <Text fx:id="ticketPriceUser" layoutX="247.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text layoutX="93.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Time :-" />
+      <Text fx:id="timingUser" layoutX="247.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text layoutX="93.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Insert Amount :-" />
+      <TextField fx:id="amountUser" layoutX="247.0" layoutY="201.0" />
+      <Text layoutX="93.0" layoutY="307.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Number of Tickets :-" />
+      <TextField fx:id="ticketsUser" layoutX="247.0" layoutY="286.0" />
+      <Button layoutX="235.0" layoutY="415.0" mnemonicParsing="false" onAction="#buyTicket" text="Buy" />
+      <Button layoutX="315.0" layoutY="415.0" mnemonicParsing="false" onAction="#returnChange" text="Return Change" />
+      <Text layoutX="681.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Balance :-" />
+      <Text fx:id="balanceUser" layoutX="868.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="housefull" layoutX="592.0" layoutY="570.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="errorUser" layoutX="93.0" layoutY="372.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Button layoutX="93.0" layoutY="415.0" mnemonicParsing="false" onAction="#insertMoney" text="Insert Money" />
+      <Text layoutX="93.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Seats Remaining :-" />
+      <Text fx:id="seatsUser" layoutX="247.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Button layoutX="681.0" layoutY="409.0" mnemonicParsing="false" onAction="#nextUser" text="Next User" />
+   </children>
+</AnchorPane>
